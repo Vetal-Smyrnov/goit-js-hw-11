@@ -1,11 +1,5 @@
-import 'simplelightbox/dist/simple-lightbox.min.css';
-import 'font-awesome/css/font-awesome.min.css';
 import './css/styles.css';
-
-import SimpleLightbox from 'simplelightbox';
 import Notiflix from 'notiflix';
-import debounce from 'lodash.debounce';
-
 import { PixabayAPI } from './pixabayAPI';
 import { imagesMarkup } from './templates';
 
@@ -18,7 +12,6 @@ const element = {
 
 let gallery = null;
 const pixabayAPI = new PixabayAPI();
-
 const toggleLoadingIndicator = isLoading => {
   element.loading.classList.toggle('hidden', !isLoading);
 };
