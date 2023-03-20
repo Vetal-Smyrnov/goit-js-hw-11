@@ -57,7 +57,7 @@ body {
   font-size: 16px;
   height: auto;
   width: 50px;
-  transition: background-color var(--animation-duration) var(--timing-function);
+  transition: background-color var(--animation-card);
 }
 
 .search-form__button--delete {
@@ -106,7 +106,7 @@ body {
   overflow: hidden;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-  transition: transform var(--animation-duration) var(--timing-function);
+  transition: transform var(--animation-card);
 }
 
 .gallery__item:hover {
@@ -117,7 +117,7 @@ body {
   height: 100%;
   max-height: 270px;
   object-fit: cover;
-  transition: transform var(--animation-duration) var(--timing-function);
+  transition: transform var(--animation-card);
 }
 
 .gallery__link {
@@ -165,7 +165,7 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: filter var(--animation-duration) var(--timing-function);
+  transition: filter var(--animation-card);
 }
 
 .load-more:hover {
